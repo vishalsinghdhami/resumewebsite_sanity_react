@@ -106,7 +106,7 @@
     flex: 1;
   
     .app__skills-exp-work {
-      width: 300px;
+      width: 280px;
       display: flex;
       flex-direction: column;
       justify-content: flex-start;
@@ -122,6 +122,11 @@
         font-weight: 400;
         color: var(--gray-color);
         margin-top: 5px;
+      }
+    }
+    @media screen and (max-width:450px) {
+      .app__skills-exp-work {
+        width:220px;
       }
     }
   }

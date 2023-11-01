@@ -69,7 +69,7 @@ const Skills = () => {
                     >
                       <h4 className="bold-text">{work.name}</h4>
                       <p className="p-text">{work.company}</p>
-                      <h5 className='bold-text2'>{work.skillss}</h5>
+                      <h4 className='bold-text2'>{work.skillss}</h4>
                       <p className='p-text'>{work.desc}</p>
                     </motion.div>
                     <ReactTooltip
