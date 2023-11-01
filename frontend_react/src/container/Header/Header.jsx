@@ -35,7 +35,7 @@ const Header = () => (
 
         <div className="tag-cmp app__flex" style={{color:'grey'}}>
         
-          <a href="https://drive.google.com/drive/folders/1k-m3tYk1f7CFaXr-7t9UGOse_0k7YWIe?usp=sharing">Download Resume <BsFilePdf/></a>
+          <a  style={{color:'grey'}}href="https://drive.google.com/drive/folders/1k-m3tYk1f7CFaXr-7t9UGOse_0k7YWIe?usp=sharing">Download Resume <BsFilePdf/></a>
           
         </div>
       </div>
