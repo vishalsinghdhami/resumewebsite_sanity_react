@@ -33,7 +33,7 @@ const Header = () => (
           </div>
         </div>
 
-        <div className="tag-cmp app__flex">
+        <div className="tag-cmp app__flex" style={{color:'grey'}}>
         
           <a href="https://drive.google.com/drive/folders/1k-m3tYk1f7CFaXr-7t9UGOse_0k7YWIe?usp=sharing">Download Resume <BsFilePdf/></a>
           
@@ -61,7 +61,7 @@ const Header = () => (
       whileInView={scaleVariants.whileInView}
       className="app__header-circles"
     >
-      {[images.flutter, images.redux, images.sass].map((circle, index) => (
+      {[images.reactB, images.node, images.git].map((circle, index) => (
         <div className="circle-cmp app__flex" key={`circle-${index}`}>
           <img src={circle} alt="profile_bg" />
         </div>

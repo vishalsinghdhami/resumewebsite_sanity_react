@@ -96,6 +96,20 @@
       font-size: 0.9rem;
     }
   }
+  .bold-text2 {
+    font-size: 0.8rem;
+    font-weight: 800;
+    color: var(--black-color);
+    text-align: left;
+  
+    @media screen and (min-width: 2000px) {
+      font-size: 1.6rem;
+    }
+  
+    @media screen and (max-width: 450px) {
+      font-size: 0.5rem;
+    }
+  }
   
   .app__social {
     display: flex;
@@ -106,8 +120,8 @@
     padding: 1rem;
   
     div {
-      width: 40px;
-      height: 40px;
+      width: 60px;
+      height: 60px;
       border-radius: 50%;
       background-color: var(--white-color);
       margin: 0.25rem 0;

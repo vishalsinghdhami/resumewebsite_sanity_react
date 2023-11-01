@@ -7,9 +7,9 @@ const SocialMedia = () => (
     <div>
      <a href="https://www.github.com/vishalsinghdhami"> <BsGithub /></a>
     </div>
-    <div>
+    {/* <div>
       <FaFacebookF />
-    </div>
+    </div> */}
     <div>
   <a href="https://www.linkedin.com/in/vishal-singh-dhami/"><BsLinkedin/></a>
 </div>

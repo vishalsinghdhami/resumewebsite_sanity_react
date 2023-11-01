@@ -13,6 +13,11 @@ export default {
                 type:'string'
             },
             {
+              name:'skillss',
+              title:"Skillss",
+              type:'string'
+            },
+            {
                 name:'desc',
                 title:'Desc',
                 type:'string'

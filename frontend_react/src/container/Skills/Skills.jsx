@@ -15,6 +15,7 @@ const Skills = () => {
     const skillsQuery = '*[_type == "skills"]';
 
     client.fetch(query).then((data) => {
+      data.sort((a, b) => new Date(b._createdAt) - new Date(a._createdAt));
       setExperiences(data);
     });
 
@@ -68,6 +69,8 @@ const Skills = () => {
                     >
                       <h4 className="bold-text">{work.name}</h4>
                       <p className="p-text">{work.company}</p>
+                      <h5 className='bold-text2'>{work.skillss}</h5>
+                      <p className='p-text'>{work.desc}</p>
                     </motion.div>
                     <ReactTooltip
                       id={work.name}
